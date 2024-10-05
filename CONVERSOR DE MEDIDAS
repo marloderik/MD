@@ -1,0 +1,12 @@
+#ATIVIDADE
+# converter unidades (para km, hm, dam, dm, dm, cm, mm)
+medida = float(input("digite uma distância em metros: "))
+km = medida / 1000
+hm = medida / 100
+dam = medida / 10
+dm = medida * 10
+cm = medida * 100
+mm = medida * 1000
+print('a medida de {} metros conrresponde a : '.format(medida))
+print('{} km\n{} hm \n{} dam'.format(km,hm, dam))
+print('{} dm\n{} cm \n{} mm'.format(dm,cm, mm))
